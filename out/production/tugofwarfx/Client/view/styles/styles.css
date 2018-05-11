@@ -1,0 +1,11 @@
+.leftButton {
+    -fx-border-color: chartreuse;
+}
+.rightButton {
+    -fx-border-color: darkred;
+}
+
+.progress {
+    -fx-accent: chartreuse;
+    -fx-control-inner-background: darkred;
+}

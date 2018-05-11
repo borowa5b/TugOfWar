@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.view.SideChooserController">
+   <BorderPane prefHeight="200.0" prefWidth="200.0">
+      <left>
+          <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <center>
+                  <Button fx:id="leftSideButton" mnemonicParsing="false" onMouseClicked="#leftSide" prefHeight="80.0" prefWidth="120.0" styleClass="leftButton" stylesheets="@styles/styles.css" text="Lewa" BorderPane.alignment="CENTER" />
+              </center>
+          </BorderPane>
+      </left>
+      <right>
+          <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <center>
+                  <Button fx:id="rightSideButton" mnemonicParsing="false" onMouseClicked="#rightSide" prefHeight="80.0" prefWidth="120.0" styleClass="rightButton" stylesheets="@styles/styles.css" text="Prawa" BorderPane.alignment="CENTER" />
+              </center>
+          </BorderPane>
+      </right>
+      <bottom>
+         <TextField fx:id="addressField" alignment="CENTER" text="localhost" BorderPane.alignment="CENTER" />
+      </bottom>
+   </BorderPane>
+</AnchorPane>
